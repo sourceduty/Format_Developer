@@ -103,6 +103,59 @@ This format provides a solid foundation for secure communication, suitable for s
 <br>
 </details>
 
+<details><summary>Unique Custom File Format Example</summary>
+<br>
+
+This is an example of a custom file format that could be used for configuring a simple web application. The format is designed to be human-readable and easily parsed by software.
+
+File Format: .webappconfig
+
+```
+# Web Application Configuration File
+# This file contains the settings for configuring the web application
+
+[AppSettings]
+AppName = MyWebApp                 # Name of the application
+Version = 1.0.0                    # Version of the application
+Port = 8080                        # Port on which the application will run
+DebugMode = true                   # Enable or disable debug mode
+
+[DatabaseConfig]
+DBType = PostgreSQL                # Type of the database (e.g., PostgreSQL, MySQL, SQLite)
+DBHost = localhost                 # Database host
+DBPort = 5432                      # Database port
+DBName = mywebapp_db               # Database name
+DBUser = dbuser                    # Database user
+DBPassword = dbpassword            # Database password (consider using environment variables for security)
+
+[Logging]
+LogLevel = INFO                    # Logging level (e.g., DEBUG, INFO, WARN, ERROR)
+LogToFile = true                   # Enable or disable logging to file
+LogFilePath = /var/log/mywebapp.log # Path to the log file
+
+[AuthSettings]
+EnableAuth = true                  # Enable or disable authentication
+AuthProvider = OAuth2              # Authentication provider (e.g., OAuth2, LDAP)
+OAuth2ClientID = your_client_id    # OAuth2 Client ID
+OAuth2ClientSecret = your_client_secret # OAuth2 Client Secret
+
+[FeatureToggles]
+EnableFeatureX = false             # Toggle for enabling Feature X
+EnableBetaFeatures = true          # Toggle for enabling beta features
+```
+
+Explanation:
+
+- Sections: The file is divided into sections, each starting with a header in square brackets, such as [AppSettings]. Each section groups related configuration settings.
+- Key-Value Pairs: Within each section, configuration settings are specified as key-value pairs, using the format Key = Value.
+- Comments: Lines beginning with # are comments and are ignored by the parser. They are used to provide descriptions or instructions.
+- Data Types: Values are stored as strings but can represent different data types (e.g., boolean, integer) as needed by the application.
+
+This format is simple and intuitive, making it easy for developers to configure and for the application to parse.
+
+<br>
+</details>
+
 #
 ### Related Links
 
