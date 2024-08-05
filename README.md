@@ -74,6 +74,7 @@ Beyond just creating formats, this GPT assists in implementing and refining them
 
 ### Example Message Structure (in Bytes):
 
+```
 | Header |
 
 Version: 0x01 0x00
@@ -89,7 +90,7 @@ Encrypted Data: 0x9F8E7D6C5B4A3B2C...
 | Signature (Optional) |
 
 Signature: 0xABCDEF0123456789...
-
+```
 
 ### Advantages of This Format:
 
