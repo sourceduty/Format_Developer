@@ -1,6 +1,6 @@
 ![Format Developer](https://github.com/user-attachments/assets/07295330-a2a3-430a-8ae6-4e4fd1edeb5f)
 
-> Develops custom code and data formats.
+> Develop custom code and data formats.
 
 #
 
