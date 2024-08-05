@@ -164,11 +164,11 @@ Here's an example of a custom file format designed for configuring a system call
 File Format: .sourceduty
 
 ```
-# SourceDuty Configuration File
+# Sourceduty Configuration File
 # This file contains the settings and information for configuring SourceDuty
 
 [SourceInfo]
-SourceName = MySourceDuty             # Name of the source
+SourceName = MySourceduty             # Name of the source
 SourceID = SD123456                   # Unique identifier for the source
 SourceType = API                      # Type of source (e.g., API, Database, Webhook)
 SourceURL = https://api.example.com   # URL or endpoint for the source
@@ -206,7 +206,7 @@ Explanation of Changes:
 - Clearer Comments: Comments are updated to be more descriptive and guide the user on what each setting is for.
 - Improved Placeholder Values: Some fields that may not always be needed (e.g., OAuth2 credentials) are included but commented on to clarify their usage.
 
-This structure aims to make configuring SourceDuty straightforward and easy to understand.
+This structure aims to make configuring Sourceduty straightforward and easy to understand.
 
 <br>
 </details>
