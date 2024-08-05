@@ -156,6 +156,61 @@ This format is simple and intuitive, making it easy for developers to configure 
 <br>
 </details>
 
+<details><summary>Unique Sourceduty File Format Example</summary>
+<br>
+
+Here's an example of a custom file format designed for configuring a system called "Sourceduty". The file format uses the .sourceduty extension and is structured to store various settings and information specific to Sourceduty.
+
+File Format: .sourceduty
+
+```
+# SourceDuty Configuration File
+# This file contains the settings and information for configuring SourceDuty
+
+[SourceInfo]
+SourceName = MySourceDuty             # Name of the source
+SourceID = SD123456                   # Unique identifier for the source
+SourceType = API                      # Type of source (e.g., API, Database, Webhook)
+SourceURL = https://api.example.com   # URL or endpoint for the source
+SourceVersion = 2.1.0                 # Version of the source
+
+[Credentials]
+AuthMethod = APIKey                   # Authentication method (e.g., APIKey, OAuth2, BasicAuth)
+APIKey = your_api_key_here            # API key for accessing the source
+OAuthClientID =                       # OAuth2 Client ID (required if using OAuth2)
+OAuthClientSecret =                   # OAuth2 Client Secret (required if using OAuth2)
+BasicAuthUser =                       # BasicAuth username (required if using BasicAuth)
+BasicAuthPassword =                   # BasicAuth password (required if using BasicAuth)
+
+[SyncSettings]
+SyncFrequency = 15                    # Frequency of synchronization in minutes
+AutoSync = true                       # Enable or disable automatic syncing
+LastSyncTime = 2024-08-05T12:00:00    # Timestamp of the last synchronization
+
+[AlertSettings]
+EnableAlerts = true                   # Enable or disable alerts
+AlertEmail = alerts@example.com       # Email address for receiving alerts
+AlertThreshold = 10                   # Threshold for triggering alerts (e.g., number of errors)
+
+[Logging]
+LogLevel = DEBUG                      # Logging level (e.g., DEBUG, INFO, WARN, ERROR)
+LogFilePath = /var/log/sourceduty.log # Path to the log file
+
+[FeatureFlags]
+EnableAdvancedFeatures = false        # Enable or disable advanced features
+```
+
+Explanation of Changes:
+
+- Refinement of Section Names: Each section name clearly describes its purpose, making the file more intuitive.
+- Clearer Comments: Comments are updated to be more descriptive and guide the user on what each setting is for.
+- Improved Placeholder Values: Some fields that may not always be needed (e.g., OAuth2 credentials) are included but commented on to clarify their usage.
+
+This structure aims to make configuring SourceDuty straightforward and easy to understand.
+
+<br>
+</details>
+
 #
 ### Related Links
 
