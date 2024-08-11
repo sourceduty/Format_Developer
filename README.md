@@ -226,7 +226,7 @@ This structure aims to make configuring Sourceduty straightforward and easy to u
 <br>
 [Programming Language Writer](https://github.com/sourceduty/Programming_Language_Writer)
 <br>
-[IDE Developer](https://github.com/sourceduty/IDE_Developer)
+[IDE Programmer](https://github.com/sourceduty/IDE_Programmer)
 
 ***
 Copyright (C) 2024, Sourceduty - All Rights Reserved.
