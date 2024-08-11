@@ -225,6 +225,8 @@ This structure aims to make configuring Sourceduty straightforward and easy to u
 [Encryption](https://github.com/sourceduty/Encryption)
 <br>
 [Programming Language Writer](https://github.com/sourceduty/Programming_Language_Writer)
+<br>
+[IDE Developer](https://github.com/sourceduty/IDE_Developer)
 
 ***
 Copyright (C) 2024, Sourceduty - All Rights Reserved.
