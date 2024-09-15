@@ -212,6 +212,10 @@ This structure aims to make configuring Sourceduty straightforward and easy to u
 </details>
 
 #
+
+![Code Geek](https://github.com/user-attachments/assets/96356f65-7071-4371-931f-ebe339d05f2a)
+
+#
 ### Related Links
 
 [ChatGPT](https://github.com/sourceduty/ChatGPT)
