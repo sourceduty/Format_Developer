@@ -216,6 +216,10 @@ This structure aims to make configuring Sourceduty straightforward and easy to u
 ![Code Geek](https://github.com/user-attachments/assets/96356f65-7071-4371-931f-ebe339d05f2a)
 
 #
+
+> Alex : "*I'm a code geek because I develop formats.*"
+
+#
 ### Related Links
 
 [ChatGPT](https://github.com/sourceduty/ChatGPT)
@@ -231,6 +235,8 @@ This structure aims to make configuring Sourceduty straightforward and easy to u
 [Programming Language Writer](https://github.com/sourceduty/Programming_Language_Writer)
 <br>
 [IDE Programmer](https://github.com/sourceduty/IDE_Programmer)
+<br>
+[Encoded Interactive Graphic Format](https://github.com/sourceduty/Encoded_Interactive_Graphic_Format)
 
 ***
 Copyright (C) 2024, Sourceduty - All Rights Reserved.
