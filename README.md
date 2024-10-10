@@ -262,6 +262,8 @@ This structure aims to make configuring Sourceduty straightforward and easy to u
 
 > Alex : "*I'm a code geek because I develop formats.*"
 
+> "*This repo makes me laugh.*"
+
 #
 ### Related Links
 
