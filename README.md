@@ -56,7 +56,7 @@ The primary challenge lies in creating a generalized algorithm that can accurate
 #
 ### Format Origin
 
-[Format Origin](https://github.com/sourceduty/Format_Origin) differs from the Format_Developer custom GPT in its primary focus. While Format_Developer centers on creating and managing custom formats for code and data structures, covering the entire process from design to implementation, this GPT assists users in generating and formatting programming code and technical writing across various languages. It helps with structuring responses and ensuring clarity, but it doesn't focus on the full lifecycle of format development like the GitHub project does.
+[Format Origin](https://github.com/sourceduty/Format_Origin) differs from the Format Developer custom GPT in its primary focus. While Format Developer centers on creating and managing custom formats for code and data structures, covering the entire process from design to implementation, this GPT assists users in generating and formatting programming code and technical writing across various languages. It helps with structuring responses and ensuring clarity, but it doesn't focus on the full lifecycle of format development like the Format Developer custom GPT does.
 
 #
 ### Example Usage
