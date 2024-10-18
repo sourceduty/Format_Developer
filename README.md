@@ -54,6 +54,11 @@ Developing a program to convert .txt and .pdf files into machine code is technic
 The primary challenge lies in creating a generalized algorithm that can accurately interpret any arbitrary .txt or .pdf content and then map it into meaningful, safe, and executable machine instructions. Most .txt and .pdf files are not inherently designed to contain executable instructions but rather to convey information to human readers, meaning the conversion program would often need to rely on complex natural language processing (NLP) and machine learning techniques to infer intent or meaning from the text. In specific cases where the .txt file follows a strict syntax—such as a configuration file or script—the program could feasibly convert it to machine code with pre-defined rules. In general, though, such a conversion program would be highly specialized and would only be practical for well-defined content or structured text formats, rather than arbitrary free-form text or complex PDF documents.
 
 #
+### Format Origin
+
+[Format Origin](https://github.com/sourceduty/Format_Origin) differs from the Format_Developer custom GPT in its primary focus. While Format_Developer centers on creating and managing custom formats for code and data structures, covering the entire process from design to implementation, this GPT assists users in generating and formatting programming code and technical writing across various languages. It helps with structuring responses and ensuring clarity, but it doesn't focus on the full lifecycle of format development like the GitHub project does.
+
+#
 ### Example Usage
 
 <details><summary>Unique Communication Encryption Format Example</summary>
