@@ -1,3 +1,5 @@
+The Hybrid Programming-Machine Code (HPMC) system allows sections of the program that require maximum performance, like matrix multiplication, to be written in machine code, while the non-performance-critical parts (such as input/output and control flow) are maintained in high-level code for ease of readability and development. This approach offers flexibility to developers to tune performance-critical sections without rewriting the entire program in assembly.
+
 PROGRAM: HPMC Example for Performance Optimization
 
 DESCRIPTION:
