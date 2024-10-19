@@ -278,7 +278,7 @@ This structure aims to make configuring Sourceduty straightforward and easy to u
 
 > Alex : "*I'm a code geek because I develop formats.*"
 
-> "*This repo makes me laugh.*"
+> "*I intermixed high-level programming constructs with low-level assembly or machine code in HPMC.*"
 
 #
 ### Related Links
