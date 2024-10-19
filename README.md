@@ -1,6 +1,6 @@
 ![User](https://github.com/user-attachments/assets/e507390c-589d-4472-963c-116b34045c17)
 
-> Develop custom code and data formats.
+> Develop custom code and data format framework.
 
 #
 
