@@ -8,8 +8,8 @@
 
 BEGIN_MESSAGE
     SECTION: INTRODUCTION
-        - SYMBOL: ∆πφλΞΩ  # Alien symbolic representation
-        - TEXT: "Greetings from the planet Glipnar."  # Human-readable translation
+        - SYMBOL: ∆λ$πφλφλΩ  # Alien symbolic representation
+        - TEXT: "Greetings from Sourceduty."  # Human-readable translation
 
     SECTION: INSTRUCTIONS
         - COMMAND: TRANSMIT  # Instruction to transmit further data
