@@ -309,7 +309,7 @@ This structure aims to make configuring Sourceduty straightforward and easy to u
 
 > "*We need an Interspecies Communication Specialist.*"
 
-> "*Press the F14 key for syntax alignment commands.*"
+> "*Technically the general utility of the code is present in the submenu found when a user presses the F14 key for syntax alignment commands.*"
 
 #
 ### Related Links
