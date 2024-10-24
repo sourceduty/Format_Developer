@@ -1,0 +1,28 @@
+# Alien Communication Data File (.alien)
+# Version: 1.0
+# Message ID: 8472-ALPHA
+# Timestamp: 2671892394
+# Language: Glpx-7  # Identifier for alien symbolic system
+# Encoding: UTF-16  # Encoding system used for the text
+# Checksum: 5293EAD8  # For error detection
+
+BEGIN_MESSAGE
+    SECTION: INTRODUCTION
+        - SYMBOL: ∆πφλΞΩ  # Alien symbolic representation
+        - TEXT: "Greetings from the planet Glipnar."  # Human-readable translation
+
+    SECTION: INSTRUCTIONS
+        - COMMAND: TRANSMIT  # Instruction to transmit further data
+        - SIGNAL: 001011101010101  # Binary encoded signal pattern
+    
+    SECTION: LOCATION_DATA
+        - COORDINATES: 
+            GALAXY: "Triangulum" 
+            SYSTEM: "M33-X7"
+            PLANET: "Glipnar"
+        - RELATIVE_SIGNAL_STRENGTH: 0.85  # Proximity to signal origin
+    
+    SECTION: CLOSING
+        - TEXT: "Awaiting response."
+        - SYMBOL: Ψθωζβ  # Closing symbols, may signify end of message
+END_MESSAGE
