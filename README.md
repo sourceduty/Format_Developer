@@ -307,6 +307,8 @@ This structure aims to make configuring Sourceduty straightforward and easy to u
 
 > "*I intermixed high-level programming constructs with low-level assembly or machine code in HPMC.*"
 
+> "*We need an Interspecies Communication Specialist.*"
+
 #
 ### Related Links
 
