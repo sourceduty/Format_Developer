@@ -1,6 +1,6 @@
 ![Nerd](https://github.com/user-attachments/assets/c6ce8ab8-a410-4dd4-924d-236b0a9a9f72)
 
-> Develop custom code and data format framework.
+> Develop custom code and data format framework syntax.
 
 #
 
