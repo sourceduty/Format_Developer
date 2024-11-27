@@ -298,6 +298,27 @@ This structure aims to make configuring Sourceduty straightforward and easy to u
 </details>
 
 #
+### File Structure
+
+```
+File Structure Abstraction
+|
+|-- File Format
+|   |-- Definition of file format (e.g., PDF, JPEG, TXT)
+|   |-- File format usage and compatibility
+|
+|-- File Content
+|   |-- Data or information contained in the file
+|   |-- Organization or structure of content within the file
+|
+|-- File Metadata
+    |-- Definition of metadata (e.g., creation date, author, file size)
+    |-- Examples of common metadata
+```
+
+The concept of file structure abstraction encompasses three main components: file format, file content, and file metadata. The file format defines the technical encoding of a file, which determines how it is used and with which software it is compatible, such as PDFs for documents or JPEGs for images. File content refers to the actual data or information contained within the file, organized in a way that aligns with its format. Lastly, file metadata provides essential contextual information about the file, such as the creation date, author, and file size, offering a deeper understanding of its origin and usage characteristics. Together, these elements help users and systems effectively manage, utilize, and understand digital files.
+
+#
 
 ![Code Geek](https://github.com/user-attachments/assets/96356f65-7071-4371-931f-ebe339d05f2a)
 
