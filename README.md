@@ -362,6 +362,8 @@ In this context, the approach to privacy involves employing advanced encryption 
 [Right Click Converter](https://github.com/sourceduty/Right_Click_Converter)
 <br>
 [Format Origin](https://github.com/sourceduty/Format_Origin)
+<br>
+[Plain Text](https://github.com/sourceduty/Plain_Text)
 
 ***
 Copyright (C) 2024, Sourceduty - All Rights Reserved.
