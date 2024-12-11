@@ -31,6 +31,22 @@ Beyond just creating formats, this GPT assists in implementing and refining them
 | 15   | PSD         | High             | Hard                  | High                 | PNG                        |
 
 #
+### Format .Extension Length
+
+| System/Standard            | Maximum Extension Length    | Common Examples            | Notes                                                        |
+|----------------------------|-----------------------------|----------------------------|--------------------------------------------------------------|
+| Windows (NTFS)             | Up to 255 characters        | .txt, .exe, .html           | Extensions are typically 3–4 characters but can be much longer if needed. |
+| macOS (APFS)               | Up to 255 characters        | .png, .jpeg, .pages        | Extensions can be as long as the filename allows, but shorter is standard. |
+| Linux (ext4)               | Up to 255 characters        | .sh, .tar.gz, .config      | Supports long extensions, but short ones are preferred for compatibility. |
+| Legacy Systems (FAT32)     | 3 characters (fixed)        | .bat, .com, .sys           | Extensions longer than 3 characters are not supported in older systems. |
+| Web Standards              | Typically 3–5 characters    | .json, .html, .css         | Commonly used for web development.                           |
+| Custom Extensions          | Recommended: 3–8 characters | .custom, .format, .data    | Avoid overly long extensions for better compatibility and readability. |
+
+'example.myverylongfileformat'
+
+The table provides a detailed overview of file extension length limits and practices across various systems and standards, highlighting both technical capabilities and practical conventions. While modern file systems like Windows NTFS, macOS APFS, and Linux ext4 technically support extremely long extensions (up to 255 characters), shorter extensions (3–5 characters) remain the standard for compatibility, readability, and ease of use. Legacy systems, such as FAT32, impose stricter limits, with extensions fixed at 3 characters, which influenced many of today’s conventions. For web and software development, extensions like .json, .html, and .css illustrate the common practice of balancing brevity with clarity. Although custom extensions with up to 25 or more characters are possible, they are rarely practical and can create challenges for users and systems. This emphasizes the importance of carefully designing file extensions that are meaningful, concise, and optimized for their intended use.
+
+#
 ### Code Style & Boilerplate
 
 Code Style refers to the conventions and guidelines that developers follow when writing code to ensure readability, consistency, and maintainability. A well-defined code style is essential for collaborative development, as it reduces ambiguity and makes it easier for developers to understand each other’s work. Code style guidelines typically cover aspects such as naming conventions, indentation, spacing, commenting practices, and the organization of code. For example, many teams adhere to established standards like PEP 8 for Python or the Airbnb Style Guide for JavaScript. Adopting a consistent code style not only improves clarity but also helps avoid common errors, as many modern code editors and linters can enforce these guidelines automatically.
