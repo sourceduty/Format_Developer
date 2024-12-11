@@ -1,0 +1,35 @@
+# Welcome to the .cock File Format!
+# WARNING: This file contains NSFW metadata. Viewer discretion is advised.
+# Created by: Dr. Horn E. Rooster
+
+[FOREPLAY_HEADER]
+version = 6.9
+session_date = 2024-12-09
+participants = 2  # (or more if you're feeling adventurous)
+mood = "spicy"
+
+[POSITION:ReverseCowboy]
+duration_minutes = 15
+success_rate = 80%  # (achieved without falling off the bed)
+moans_per_minute = 30
+flexibility_required = "medium"
+notes = "Partner got cramp, 7/10 would try again."
+
+[POSITION:TheHelicopter]
+duration_minutes = 3
+success_rate = 10%  # (immediately banned due to furniture damage)
+energy_expenditure = 500 cal
+notes = "Too dangerous for small rooms. RIP ceiling fan."
+
+[SAFETY_WORDS]
+primary = "Pineapple"
+secondary = "Code Red"
+backup = "I need pizza."
+
+[ORGASM_COUNTER]
+participant_1 = 2
+participant_2 = 3
+bonus = 1 (shared)
+notes = "Excellent teamwork!"
+
+<NOFAPALERT>
