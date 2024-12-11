@@ -42,7 +42,7 @@ Beyond just creating formats, this GPT assists in implementing and refining them
 | Web Standards              | Typically 3–5 characters    | .json, .html, .css         | Commonly used for web development.                           |
 | Custom Extensions          | Recommended: 3–8 characters | .custom, .format, .data    | Avoid overly long extensions for better compatibility and readability. |
 
-'example.myverylongfileformat'
+```example.myverylongfileformat```
 
 The table provides a detailed overview of file extension length limits and practices across various systems and standards, highlighting both technical capabilities and practical conventions. While modern file systems like Windows NTFS, macOS APFS, and Linux ext4 technically support extremely long extensions (up to 255 characters), shorter extensions (3–5 characters) remain the standard for compatibility, readability, and ease of use. Legacy systems, such as FAT32, impose stricter limits, with extensions fixed at 3 characters, which influenced many of today’s conventions. For web and software development, extensions like .json, .html, and .css illustrate the common practice of balancing brevity with clarity. Although custom extensions with up to 25 or more characters are possible, they are rarely practical and can create challenges for users and systems. This emphasizes the importance of carefully designing file extensions that are meaningful, concise, and optimized for their intended use.
 
